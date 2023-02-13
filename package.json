@@ -1,0 +1,24 @@
+{
+  "name": "file-database",
+  "version": "1.0.0",
+  "description": "File database and respositories for quick development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [
+    "File",
+    "Database",
+    "JSON",
+    "Repository"
+  ],
+  "author": "Raphael Fachim",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
